@@ -109,7 +109,7 @@ func main() {
 	app.Command("develop", "commands for developing", func(cmd *cli.Cmd) {
 		cmd.Command("tpl", "generate a theme project from a remote template", func(cmd *cli.Cmd) {
 			var (
-				moduleName = cmd.StringOpt("m module", "github.com/HongJaison/themes/newTmpl", "the module name of your theme")
+				moduleName = cmd.StringOpt("m module", "github.com/HongJaison/themes2/newTmpl", "the module name of your theme")
 				themeName  = cmd.StringOpt("n name", "newTmplTheme", "the name of your theme")
 			)
 

@@ -15,7 +15,7 @@ import (
 	"github.com/HongJaison/go-admin/plugins/example"
 	"github.com/HongJaison/go-admin/template"
 	"github.com/HongJaison/go-admin/template/chartjs"
-	"github.com/HongJaison/themes/adminlte"
+	"github.com/HongJaison/themes2/adminlte"
 	"github.com/gogf/gf/frame/g"
 )
 

@@ -12,7 +12,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/gin"                    // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}" // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                       // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                       // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -73,7 +73,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/beego"                   // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -134,7 +134,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/buffalo"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -200,7 +200,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/chi"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -283,7 +283,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/echo"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -341,7 +341,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/fasthttp"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -402,7 +402,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/gf"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -462,7 +462,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/gorilla"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -522,7 +522,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/iris"                 // web framework adapter
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/HongJaison/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/HongJaison/themes2/{{.Theme}}"                        // ui theme
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/template"
@@ -585,10 +585,10 @@ import (
 	template2 "github.com/HongJaison/go-admin/template"
 	"github.com/HongJaison/go-admin/template/chartjs"
 	"github.com/HongJaison/go-admin/template/types"
-	"github.com/HongJaison/themes/sword/components/card"
-	"github.com/HongJaison/themes/sword/components/chart_legend"
-	"github.com/HongJaison/themes/sword/components/description"
-	"github.com/HongJaison/themes/sword/components/progress_group"
+	"github.com/HongJaison/themes2/sword/components/card"
+	"github.com/HongJaison/themes2/sword/components/chart_legend"
+	"github.com/HongJaison/themes2/sword/components/description"
+	"github.com/HongJaison/themes2/sword/components/progress_group"
 	"html/template"
 )
 
@@ -858,12 +858,12 @@ import (
 	"github.com/HongJaison/go-admin/template/chartjs"
 	"github.com/HongJaison/go-admin/template/icon"
 	"github.com/HongJaison/go-admin/template/types"
-	"github.com/HongJaison/themes/adminlte/components/chart_legend"
-	"github.com/HongJaison/themes/adminlte/components/description"
-	"github.com/HongJaison/themes/adminlte/components/infobox"
-	"github.com/HongJaison/themes/adminlte/components/productlist"
-	"github.com/HongJaison/themes/adminlte/components/progress_group"
-	"github.com/HongJaison/themes/adminlte/components/smallbox"
+	"github.com/HongJaison/themes2/adminlte/components/chart_legend"
+	"github.com/HongJaison/themes2/adminlte/components/description"
+	"github.com/HongJaison/themes2/adminlte/components/infobox"
+	"github.com/HongJaison/themes2/adminlte/components/productlist"
+	"github.com/HongJaison/themes2/adminlte/components/progress_group"
+	"github.com/HongJaison/themes2/adminlte/components/smallbox"
 	"html/template"
 )
 

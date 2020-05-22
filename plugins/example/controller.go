@@ -7,12 +7,12 @@ import (
 	template2 "github.com/HongJaison/go-admin/template"
 	"github.com/HongJaison/go-admin/template/chartjs"
 	"github.com/HongJaison/go-admin/template/types"
-	"github.com/HongJaison/themes/adminlte/components/chart_legend"
-	"github.com/HongJaison/themes/adminlte/components/description"
-	"github.com/HongJaison/themes/adminlte/components/infobox"
-	"github.com/HongJaison/themes/adminlte/components/productlist"
-	"github.com/HongJaison/themes/adminlte/components/progress_group"
-	"github.com/HongJaison/themes/adminlte/components/smallbox"
+	"github.com/HongJaison/themes2/adminlte/components/chart_legend"
+	"github.com/HongJaison/themes2/adminlte/components/description"
+	"github.com/HongJaison/themes2/adminlte/components/infobox"
+	"github.com/HongJaison/themes2/adminlte/components/productlist"
+	"github.com/HongJaison/themes2/adminlte/components/progress_group"
+	"github.com/HongJaison/themes2/adminlte/components/smallbox"
 	"html/template"
 )
 

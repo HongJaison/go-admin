@@ -6,7 +6,7 @@ import (
 	"github.com/HongJaison/go-admin/modules/config"
 	"github.com/HongJaison/go-admin/modules/language"
 	"github.com/HongJaison/go-admin/plugins/admin/modules/table"
-	"github.com/HongJaison/themes/adminlte"
+	"github.com/HongJaison/themes2/adminlte"
 
 	// add mysql driver
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/mysql"
@@ -17,7 +17,7 @@ import (
 	// add mssql driver
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	_ "github.com/HongJaison/themes/adminlte"
+	_ "github.com/HongJaison/themes2/adminlte"
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/plugins/admin"

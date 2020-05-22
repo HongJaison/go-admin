@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/gin"
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/mysql"
-	_ "github.com/HongJaison/themes/adminlte"
+	_ "github.com/HongJaison/themes2/adminlte"
 
 	"github.com/sclevine/agouti"
 )

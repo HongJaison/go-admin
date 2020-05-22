@@ -12,7 +12,7 @@ import (
 	// add mssql driver
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	_ "github.com/HongJaison/themes/adminlte"
+	_ "github.com/HongJaison/themes2/adminlte"
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/plugins/admin"

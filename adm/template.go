@@ -121,7 +121,7 @@ func replaceContents(fileDir, moduleName, themeName string) {
 			checkError(err)
 			content := string(buf)
 
-			newContent := strings.Replace(content, "github.com/HongJaison/themes/adminlte", moduleName, -1)
+			newContent := strings.Replace(content, "github.com/HongJaison/themes2/adminlte", moduleName, -1)
 			newContent = strings.Replace(newContent, "adminlte", themeName, -1)
 			newContent = strings.Replace(newContent, "Adminlte", strings.Title(themeName), -1)
 

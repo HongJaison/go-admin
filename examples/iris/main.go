@@ -7,7 +7,7 @@ import (
 
 	_ "github.com/HongJaison/go-admin/adapter/iris"
 	_ "github.com/HongJaison/go-admin/modules/db/drivers/mysql"
-	_ "github.com/HongJaison/themes/adminlte"
+	_ "github.com/HongJaison/themes2/adminlte"
 
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/examples/datamodel"

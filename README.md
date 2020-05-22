@@ -83,7 +83,7 @@ import (
 	"github.com/HongJaison/go-admin/engine"
 	"github.com/HongJaison/go-admin/plugins/admin"
 	"github.com/HongJaison/go-admin/modules/config"
-	"github.com/HongJaison/themes/adminlte"
+	"github.com/HongJaison/themes2/adminlte"
 	"github.com/HongJaison/go-admin/template"
 	"github.com/HongJaison/go-admin/template/chartjs"
 	"github.com/HongJaison/go-admin/template/types"
